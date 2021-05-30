@@ -1,0 +1,7 @@
+import quantstats as qs
+import pandas as pd
+import numpy.random as npr
+
+x = pd.DataFrame(npr.random(100))
+qs.reports.html(x)
+
